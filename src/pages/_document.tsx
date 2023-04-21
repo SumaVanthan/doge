@@ -13,6 +13,13 @@ export default function Document() {
   })(window,document,'script','dataLayer','G-M3E4P447GJ');`,
   }}>
   </script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M3E4P447GJ');
+  </script>
       </Head>      
       <body>
         <Main />
